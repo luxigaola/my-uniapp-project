@@ -1,4 +1,7 @@
 module.exports = {
+  globals: {
+    uni: true
+  },
   env: {
     browser: true,
     es2021: true
@@ -6,6 +9,7 @@ module.exports = {
   extends: [
     'standard',
     'plugin:vue/vue3-essential'
+    // 'prettier'
   ],
   overrides: [
     {
