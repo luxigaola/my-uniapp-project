@@ -7,16 +7,10 @@
   </view>
 </template>
 
-<script>
-export default {
-  data () {
-    return {
-      title: 'Hello'
-    }
-  },
-  onLoad () {},
-  methods: {}
-}
+<script setup>
+import useUserStore from '@/store/useUserStore'
+const user = useUserStore()
+console.log(user.token)
 </script>
 
 <style>
