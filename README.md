@@ -2,7 +2,7 @@
 
 ## 项目简介
 
-该项目为 Vite 脚本建立 uniapp 项目的实例，方便直接使用
+该项目为 Vite 脚本建立 uniapp 项目的实例，这里使用的是Eslint-prettier风格，方便直接使用
 
 ## 项目安装依赖
 
@@ -51,3 +51,6 @@
 | unplugin-auto-import      | ^0.16.6                |
 | vite                      | 4.1.4                  |
 | vite-plugin-eslint        | ^1.8.1                 |
+| eslint-config-prettier    | ^9.0.0                 |
+| eslint-plugin-prettie     | ^5.0.0                 |
+| prettier                  | ^3.0.3                 |
