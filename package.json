@@ -52,6 +52,7 @@
     "@dcloudio/uni-mp-toutiao": "3.0.0-3080420230531001",
     "@dcloudio/uni-mp-weixin": "3.0.0-3080420230531001",
     "@dcloudio/uni-quickapp-webview": "3.0.0-3080420230531001",
+    "@dcloudio/uni-ui": "^1.4.28",
     "luch-request": "^3.1.1",
     "pinia": "2.0",
     "vue": "^3.2.45",

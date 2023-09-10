@@ -43,5 +43,6 @@ export default defineConfig({
     alias: {
       '@': fileURLToPath(new URL('./src', import.meta.url))
     }
-  }
+  },
+  transpileDependencies: ['@dcloudio/uni-ui']
 })
