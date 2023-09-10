@@ -3,6 +3,7 @@
     <image class="logo" src="/static/logo.png"></image>
     <view class="text-area">
       <text class="title">{{ title }}</text>
+      <uni-easyinput focus v-model="password" placeholder="请输入内容"></uni-easyinput>
     </view>
   </view>
 </template>
@@ -10,11 +11,13 @@
 <script setup>
 import useUserStore from '@/store/useUserStore'
 const user = useUserStore()
+const password = ref('')
+const title = ref('uniapp例子')
 console.log(user.token)
 console.log(import.meta.env.VITE_PATH)
 </script>
 
-<style>
+<style lang="scss">
 .content {
   display: flex;
   flex-direction: column;
