@@ -8,8 +8,8 @@ module.exports = {
   },
   extends: [
     'standard',
-    'plugin:vue/vue3-essential'
-    // 'prettier'
+    'plugin:vue/vue3-essential',
+    './.eslintrc-auto-import.json'
   ],
   overrides: [
     {
