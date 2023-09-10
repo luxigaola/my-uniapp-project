@@ -11,6 +11,7 @@
 import useUserStore from '@/store/useUserStore'
 const user = useUserStore()
 console.log(user.token)
+console.log(import.meta.env.VITE_PATH)
 </script>
 
 <style>
